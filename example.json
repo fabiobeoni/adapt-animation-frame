@@ -1,0 +1,17 @@
+[
+	{
+		"_id": "c-01",
+		"_parentId": "b-01",
+		"_type": "component",
+		"_component": "adaptAnimationFrame",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Animation Frame Sample",
+		"displayTitle": "Animation Frame Sample",
+		"body": "",
+		"height_small":100,
+		"height_medium":200,
+		"height_large":300,
+		"animation":"course/en/assets/animation1.html"
+	}
+]

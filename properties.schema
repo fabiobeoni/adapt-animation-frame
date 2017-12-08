@@ -1,0 +1,60 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
+  "properties":{
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
+    },
+    "animation": {
+        "type":"string",
+        "required":true,
+        "default": "",
+        "inputType": "Asset:other",
+        "validators": ["required"],
+        "help": "Select the animation HTML file from Assets"
+    },
+    "height_small": {
+        "type": "number",
+        "required": true,
+        "title": "Height - Small Screens (px)",
+        "default": 200,
+        "inputType": "Number",
+        "validators": [],
+        "help": "The height of the animation frame on small screens (phones)"
+    },
+    "height_medium": {
+            "type": "number",
+            "required": true,
+            "title": "Height - Medium Screens (px)",
+            "default": 200,
+            "inputType": "Number",
+            "validators": [],
+            "help": "The height of the animation frame on medium screens (tablets)"
+    },
+    "height_large": {
+            "type": "number",
+            "required": true,
+            "title": "Height - Large Screens (px)",
+            "default": 200,
+            "inputType": "Number",
+            "validators": [],
+            "help": "The height of the animation frame on large screens (desktops)"
+    }
+  }
+}
