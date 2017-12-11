@@ -18,14 +18,25 @@
 
 <p>If you have any trouble while installing, please feel free to contact me.</p>
 
-<p>This component is free under the <a href="LICENSE">Creative Commons licence agreement "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"</a>.</p>
+**How to use**
+<ol>
+    <li>Export an animation from your favourite editor as a single HTML5 file (for Adobe Animate CC see: https://helpx.adobe.com/animate/using/OAM-publishing.html)</li>
+    <li>Add the animation file to the Adapt Builder assets library</li>
+    <li>In your course page and block, add a new Animation Frame component</li>
+    <li>Select the animation file from the assets</li>
+    <li>Set the height of the animation frame according to the responsive options available</li>
+</ol>
 
+<p>Please remenber to make you animation scalable for both width and height when you design it with your editor, to make sure it will adjust properly to different devices.</p>
 
 **Note about importing OAM packages from Adobe AnimateCC**
 
 <p>By deafult this component for Adapt supports any HTML5 animation based on a single page file.</p>
 <p>To import OAM packages (multi file animation including images/videos/audios/etc) from Adobe AnimateCC, you also need to install
 the backend plugin "Animation Asset Unpack" for Adapt Builder.</p>
+
+**License**
+<p>This component is free under the <a href="LICENSE">Creative Commons licence agreement "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"</a>.</p>
 
 **Support the development**
 <p>If you like this component please consider to support the development of new components.</p>
