@@ -2,8 +2,14 @@
  * Adapt Learning component to display interactive
  * animations built with external editor and included
  * as an assets into the Adapt AT.
- * Animation assets can be included as single HTML file
- * or as a .OAM package (see Adobe Animate CC 2017).
+ * Animation assets can be included as single HTML file,
+ * .OAM package (see Adobe Animate CC 2017), or any .ZIP
+ * file with the following structure:
+ *
+ * myZip.zip
+ *  - myZip (folder)
+ *      - index.html
+ *      - ... (any other static file or folder)
  *
  * @author Fabio Beoni: https://github.com/fabiobeoni | https://it.linkedin.com/in/fabio-beoni-6a7848101
  */
@@ -55,12 +61,15 @@ define(function(require) {
             // .OAM files are compressed files with custom
             // extension. The Adapt AT unpack them into the
             // course assets folder but the reference in the
-            // model points to the orginal OAM file. So here
+            // model points to the original OAM file. So here
             // you check the animation file extension, when OAM
             // you look for the index.html that is always available
             // inside an unpacked OAM folder.
-            if(animation.indexOf('.oam')!==-1) {
-                entryPointUrl = animation.replace('.oam','/index.html');
+            var isPackage = animation.indexOf('.oam')!==-1 || animation.indexOf('.zip')!==-1;
+            if(isPackage) {
+                entryPointUrl = animation
+                    .replace('.oam','/index.html')
+                    .replace('.zip','/index.html');
             }
             else { // regular single page animation (HTML)
                 entryPointUrl = animation;

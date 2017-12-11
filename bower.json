@@ -3,7 +3,7 @@
     "repository": "git://github.com/fabiobeoni/adapt-animation-frame.git",
     "framework": "^2.0.0",
     "description": "Include any HTML-based animation built with external animation editor (like Adobe Animate CC)",
-    "version": "0.0.8",
+    "version": "1.0.0",
     "displayName": "Animation Frame",
     "component": "adaptAnimationFrame",
     "main": "/js/component.js",
@@ -14,6 +14,7 @@
         "adapt-component",
         "animation",
         "import animation",
+        "Adobe Animate",
         "off-line animantion"
     ],
     "license": "CC BY-ND 4.0",

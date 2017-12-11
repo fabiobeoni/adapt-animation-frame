@@ -27,7 +27,7 @@
         "default": "",
         "inputType": "Asset:other",
         "validators": ["required"],
-        "help": "Select the animation HTML file from Assets"
+        "help": "Select the animation file from Assets (single HTML, OAM or ZIP)"
     },
     "height_small": {
         "type": "number",

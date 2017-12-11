@@ -8,10 +8,6 @@
  <p>The Animation Frame component also follows Adapt responsive design rules, resizing 
   the animation hosting box according to them.<p>
   
-**Watch this short demo: "Importing a responsive animation built with Adobe AnimateCC into Adapt Builder"**
-  
-<img />
-
 **How to install**
 
 <ol>
@@ -29,7 +25,7 @@
 
 <p>By deafult this component for Adapt supports any HTML5 animation based on a single page file.</p>
 <p>To import OAM packages (multi file animation including images/videos/audios/etc) from Adobe AnimateCC, you also need to install
-the backend plugin "Process Adobe AnimateCC Animation" for Adapt Builder.</p>
+the backend plugin "Animation Asset Unpack" for Adapt Builder.</p>
 
 **Support the development**
 <p>If you like this component please consider to support the development of new components.</p>
