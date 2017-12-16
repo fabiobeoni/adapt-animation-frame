@@ -43,6 +43,6 @@ the backend plugin "Animation Asset Unpack" for Adapt Builder.</p>
 <p>If you are interested, I'm <a href="https://it.linkedin.com/in/fabio-beoni-6a7848101">available for hire</a> to develop custom components for AdaptLearning courses.</p>
 
 ----------------------------
-**Version number:**  1.0.0
-**Adapt Framework versions:**  >= 2.0
+**Version number:**  1.1.0
+**Adapt Framework versions:**  >= 3.0
 **Author:** <a href="https://it.linkedin.com/in/fabio-beoni-6a7848101" target="_blanck">Fabio Beoni</a>
