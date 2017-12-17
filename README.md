@@ -1,6 +1,6 @@
 # Adapt Animation Frame
 
-**Display any HTML5-based responsive animation into your AdaptLearning course**
+**Display any HTML5-based responsive animation into your Adapt Learning course**
 
  <p>This component displays HTML5-based animations built with commercial animation editors like Adobe AnimateCC.</p>
  <p>The component supports any animation created with desktop or online editors exporting animations 
@@ -11,8 +11,8 @@
 **How to install**
 
 <ol>
- <li><a href="https://github.com/fabiobeoni/adapt-animation-frame/archive/master.zip">download the responsive Animation Frame</a> plugin component</li>
- <li>go to your Adapt Builder, in the main menu select "Plugins Management / Upload Plugin"</li>
+ <li><a href="https://github.com/fabiobeoni/adapt-animation-frame/archive/master.zip">download the responsive Adapt Animation Frame</a> plugin component</li>
+ <li>go to your Adapt Authoring Tool, in the main menu select "Plugins Management / Upload Plugin"</li>
  <li>select the downloaded zip file</li>
 </ol>
 
@@ -21,7 +21,7 @@
 **How to use**
 <ol>
     <li>Export an animation from your favourite editor as a single HTML5 file (for Adobe Animate CC see: https://helpx.adobe.com/animate/using/OAM-publishing.html)</li>
-    <li>Add the animation file to the Adapt Builder assets library</li>
+    <li>Add the animation file to the Adapt Assets Library</li>
     <li>In your course page and block, add a new Animation Frame component</li>
     <li>Select the animation file from the assets</li>
     <li>Set the height of the animation frame according to the responsive options available</li>
@@ -33,7 +33,7 @@
 
 <p>By deafult this component for Adapt supports any HTML5 animation based on a single page file.</p>
 <p>To import OAM packages (multi file animation including images/videos/audios/etc) from Adobe AnimateCC, you also need to install
-the backend plugin "Animation Asset Unpack" for Adapt Builder.</p>
+the backend plugin "Animation Asset Unpack" for Adapt AT.</p>
 
 **License**
 <p>This component is free under the <a href="LICENSE">Creative Commons licence agreement "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"</a>.</p>
