@@ -1,7 +1,7 @@
 {
     "name": "adapt-animation-frame",
     "repository": "git://github.com/fabiobeoni/adapt-animation-frame.git",
-    "framework": "^3.0.0",
+    "framework": "^2.0.0",
     "description": "Include any HTML-based animation built with external animation editor (like Adobe Animate CC)",
     "version": "1.1.0",
     "displayName": "Animation Frame",
