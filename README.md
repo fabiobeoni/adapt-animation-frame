@@ -44,5 +44,5 @@ the backend plugin "Animation Asset Unpack" for Adapt AT.</p>
 
 ----------------------------
 **Version number:**  1.1.0
-**Adapt Framework versions:**  >= 3.0
+**Adapt Framework versions:**  >= 2.0
 **Author:** <a href="https://it.linkedin.com/in/fabio-beoni-6a7848101" target="_blanck">Fabio Beoni</a>
